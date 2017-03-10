@@ -1,10 +1,21 @@
     header {
       text-align: center;
-      background: url("http://40.media.tumblr.com/12ffe9c674704862197ce3e8fa2318bb/tumblr_mx67pdBhsx1sz7axzo2_1280.jpg");
       background-size: cover;
       background-position: center;
       display: block;
       color: white;
+    }
+    #Home {
+      background: url("http://40.media.tumblr.com/12ffe9c674704862197ce3e8fa2318bb/tumblr_mx67pdBhsx1sz7axzo2_1280.jpg");
+    }
+    #Kinkakuji {
+      background-image: url("Kinkakuji.jpg");
+    }
+    #Ryoanji {
+      background-image: url("Ryoanji.jpg");
+    }
+    #Kenrokuen {
+      background-image: url("Kenrokuen.jpg");
     }
     .nav {
       color: white;
@@ -16,9 +27,14 @@
       color: white;
       background: black;
     }
-    img {
+    #flag {
       margin: 20px 0px 0px 0px;
-      border: 7px solid white;
+      border: 3px solid white;
+      height: 120px;
+    }
+    #Kinkakuji-image {
+      margin: 20px 0px 0px 0px;
+      border: 3px solid white;
       height: 120px;
     }
     ul {
@@ -31,8 +47,11 @@
     }
     div{
       max-width: 500px;
-      padding: 20px;
+      padding: 10px;
       margin: 0 auto;
+    }
+    body{
+      background-color: #DEB887;
     }
     @media (max-width: 500px) {
       h1 {
@@ -43,4 +62,10 @@
         padding: 5px;
         display: block;
       }
+    }
+    .like {
+      font-style: italic;
+      background: rgba(100,0,0,0.5);
+      padding: 5px;
+      border-radius: 5px;
     }

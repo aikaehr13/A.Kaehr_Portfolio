@@ -4,28 +4,36 @@
   <link href="style.css" rel="stylesheet">
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="script.js"></script>
+  <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </head>
 <body>
-  <header>
+  <header id = "Home">
     <h1>Japanese Gardens</h1>
-    <img id="profile" src="http://web-jpn.org/kidsweb/explore/national/images/national1.gif">
+    <img id="flag" src="http://web-jpn.org/kidsweb/explore/national/images/national1.gif">
     <ul>
       <li><a class="nav" href="">Home</a></li>
-      <li><a class="nav" href="pages/about.html">About</a></li>
-      <li><a class="nav" href="pages/contact.html">Contact</a></li>
+      <li><a class="nav" href="pages/Kinkakuji.html">Kinkakuji</a></li>
+      <li><a class="nav" href="pages/Ryoanji.html">Ryoanji</a></li>
+      <li><a class="nav" href="pages/Kenrokuen.html">Kenrokuen</a></li>
     </ul>
   </header>
   <div class="garden">
-    <h2 class="garden-name"> <a href="">Ryouanji</a></h2>
+    <h2 class="garden-name"> <a href="pages/Kinkakuji.html">Kinkakuji</a></h2>
+    <p>Kyoto's Kinkakuji Temple was built at the end of the 14th century originally as a villa for Ashikaga Yoshimitsu, the shogun at the time. The shining Kinkaku ("Golden Pavilion") is a symbol of Kyoto. </p>
+    <button2 class = "like">Like</button2>
+    <p id="like2"></p>
+  </div>
+  <div class="garden">
+    <h2 class="garden-name"> <a href="pages/Ryoanji.html">Ryoanji</a></h2>
     <p>Kyoto's Ryoanji Temple is home to the most famous of all stone gardens in Japan. Originally an aristocrat's villa during the Heian Period, the site was converted into a Zen temple in 1450. </p>
-    <button>Like</button> 
-    <p id="like"></p>
+    <button1 class = "like">Like</button1> 
+    <p id="like1"></p>
   </div>
-<div class="garden">
-    <h2 class="garden-name"> <a href="">Kinkakuji</a></h2>
-    <p>I made a joke page. I used jQuery.</p>
-    <button>Like</button>
-    <p id="like"></p>
-  </div>
+  
+  <div class="garden" >
+    <h2 class="garden-name"> <a href="pages/Kenrokuen.html">Kenrokuen</a></h2>
+    <p>Kenrokuen is one of Japan's "three most beautiful landscape gardens". The spacious grounds used to be the outer garden of Kanazawa Castle and were constructed by the ruling Maeda family. </p>
+    <button3 class = "like">Like</button3>  
+    <p id="like3"></p>
+  </div> 
 </body>
-
