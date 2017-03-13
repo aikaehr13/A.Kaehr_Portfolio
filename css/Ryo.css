@@ -1,0 +1,61 @@
+header {
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      display: block;
+      color: white;
+    }
+    #Ryoanji {
+      background: url("/images/Ryoanji.jpg");
+    p {
+      text-align: center;
+      font-size: 16px;
+      font-style: italic;
+    }
+    .nav {
+      color: white;
+    }
+    h1 {
+      margin: 0px 0px 0px 0px;
+      padding: 10px;
+      font-size: 70px;
+      color: white;
+      background: black;
+    }
+    #Ryoanji-image {
+      margin: 20px 0px 0px 0px;
+      border: 3px solid white;
+      height: 120px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    div{
+      max-width: 500px;
+      padding: 10px;
+      margin: 0 auto;
+    }
+    body{
+      background-color: #DEB887;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+    .like {
+      font-style: italic;
+      background: rgba(100,0,0,0.5);
+      padding: 5px;
+      border-radius: 5px;
+    }
