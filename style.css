@@ -1,26 +1,10 @@
     header {
       text-align: center;
       background-size: cover;
+      background-image: url("http://40.media.tumblr.com/12ffe9c674704862197ce3e8fa2318bb/tumblr_mx67pdBhsx1sz7axzo2_1280.jpg");
       background-position: center;
       display: block;
       color: white;
-    }
-    #Home {
-      background: url("http://40.media.tumblr.com/12ffe9c674704862197ce3e8fa2318bb/tumblr_mx67pdBhsx1sz7axzo2_1280.jpg");
-    }
-    #Kinkakuji {
-      background: url("/images/Kinkakuji.jpg");
-    }
-    #Ryoanji {
-      background: url("/images/Ryoanji.jpg");
-    }
-    #Kenrokuen {
-      background: url("/images/Kenrokuen.jpg");
-    }
-    p #Kin {
-      text-align: center;
-      font-size: 16px;
-      font-style: italic;
     }
     .nav {
       color: white;

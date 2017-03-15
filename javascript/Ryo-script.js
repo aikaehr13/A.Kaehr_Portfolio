@@ -6,5 +6,6 @@ $(document).ready(function(){
       $("#like7").html("You like this garden!");
     });
     $("#Ryoanji-answer").click(function() {
-      $("#Ryoanji-q").append("- Moss!");
+      $("#Ryoanji-q").append("- MOSS!");
     });
+});

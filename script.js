@@ -8,3 +8,4 @@ $(document).ready(function(){
     $("button3").click(function() {
       $("#like3").html("You like this garden!");
     });
+});

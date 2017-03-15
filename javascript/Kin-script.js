@@ -6,5 +6,6 @@ $(document).ready(function(){
       $("#like5").html("You like this garden!");
     });
     $("#Kinkakuji-answer").click(function() {
-      $("#Kinkakuji-q").append("- Black pine (Kuromatsu)");
+      $("#Kinkakuji-q").append("- BLACK PINE (Kuromatsu)");
     });
+});

@@ -1,16 +1,9 @@
 header {
       text-align: center;
-      background: url("/images/Kenrokuen.jpg");
       background-size: cover;
       background-position: center;
       display: block;
       color: white;
-    }
-    .description {
-      
-      text-align: center;
-      font-size: 16px;
-      font-style: italic;
     }
     .nav {
       color: white;
@@ -22,10 +15,15 @@ header {
       color: white;
       background: black;
     }
-    #flag {
-      margin: 20px 0px 0px 0px;
-      border: 3px solid white;
-      height: 120px;
+    #Ken-background {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+    .description {
+      text-align: center;
+      font-size: 16px;
+      font-style: italic;
     }
     #Kenrokuen-image {
       margin: 20px 0px 0px 0px;

@@ -1,16 +1,9 @@
     header {
       text-align: center;
-      background: url("/images/Kinkakuji.jpg");
       background-size: cover;
       background-position: center;
       display: block;
       color: white;
-    }
-    .description {
-      text-align: center;
-      font-size: 16px;
-      font-style: italic;
-      padding: 20px;
     }
     .nav {
       color: white;
@@ -22,10 +15,20 @@
       color: white;
       background: black;
     }
+    #Kin-background {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+    }
+    .description {
+      text-align: center;
+      font-size: 16px;
+      font-style: italic;
+      padding: 15px;
+    }
     #Kyo {
       margin: 20px 0px 0px 0px;
       border: 3px solid white;
-      height: 120px;
     }
     ul {
       padding: 10px;

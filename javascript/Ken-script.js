@@ -6,5 +6,6 @@ $(document).ready(function(){
       $("#like9").html("You like this garden!");
     });
     $("#Kenrokuen-answer").click(function() {
-      $("#Kenrokuen-q").append("- Japanese Maple");
+      $("#Kenrokuen-q").append("- JAPANESE MAPLE");
     });
+});
