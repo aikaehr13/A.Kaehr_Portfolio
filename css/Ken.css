@@ -22,13 +22,27 @@ header {
     }
     .description {
       text-align: center;
-      font-size: 16px;
+      font-size: 20px;
       font-style: italic;
+      padding: 20px;
     }
-    #Kenrokuen-image {
-      margin: 20px 0px 0px 0px;
+    #fountain {
+      margin: 20px 20px 10px 10px;
       border: 3px solid white;
-      height: 120px;
+      height: 90%;
+      width: 90%;
+    }
+    #lantern {
+      margin: 20px 20px 10px 10px;
+      border: 3px solid white;
+      height: 90%;
+      width: 90%;
+    }
+    #maple {
+      margin: 20px 20px 10px 10px;
+      border: 3px solid white;
+      height: 90%;
+      width: 90%;
     }
     ul {
       padding: 10px;

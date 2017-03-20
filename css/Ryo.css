@@ -22,13 +22,26 @@ header {
     }
     .description {
       text-align: center;
-      font-size: 16px;
+      font-size: 20px;
       font-style: italic;
     }
-    #Ryoanji-image {
-      margin: 20px 0px 0px 0px;
+    #Rocks {
+      margin: 20px 20px 10px 10px;
       border: 3px solid white;
-      height: 120px;
+      height: 100%;
+      width: 100%;
+    }
+    #fountain {
+      margin: 20px 20px 10px 10px;
+      border: 3px solid white;
+      height: 100%;
+      width: 100%;
+    }
+    #moss {
+      margin: 20px 20px 10px 10px;
+      border: 3px solid white;
+      height: 100%;
+      width: 100%;
     }
     ul {
       padding: 10px;
